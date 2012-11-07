@@ -2,6 +2,8 @@ package remoteServer;
 
 import java.io.Serializable;
 
+
+//Creates a class of objects that implements the empty serializable interface so this object can be sent accross the network
 public class Command implements Serializable {	//TODO: Research Serializable interface
 	
 	public int command;
